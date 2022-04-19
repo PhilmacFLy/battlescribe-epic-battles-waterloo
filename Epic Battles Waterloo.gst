@@ -14,6 +14,85 @@
   <forceEntries>
     <forceEntry id="bbfc-2bdd-0dbd-1989" name="None" hidden="false"/>
   </forceEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="43ca-9de6-f3f1-3854" name="Commander 8-9" hidden="false" collective="false" import="true" type="model">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="73e3-746f-21da-b100" name="Staff Ranking" hidden="false" collective="false" import="true" defaultSelectionEntryId="6ddc-3bf7-fb93-b0a8">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5975-be5c-6a1c-91b1" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6ddc-3bf7-fb93-b0a8" name="Staff Ranking 8" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="11f9-8ea6-135c-bbb1" name="Staff Ranking 9" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="50.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5a96-7db3-917f-3bca" name="Commander 7-8" hidden="false" collective="false" import="true" type="model">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0012-8f20-78bb-0cd1" name="Staff Ranking" hidden="false" collective="false" import="true" defaultSelectionEntryId="ea89-aa4a-4306-05c2">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a42-7c47-d37e-b412" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="ea89-aa4a-4306-05c2" name="Staff Ranking 7" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1010-3359-4b89-40c1" name="Staff Ranking 8" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="25.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="813c-feaf-8bab-8205" name="Commander 7-9" hidden="false" collective="false" import="true" type="model">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ca18-3446-49a4-5ac2" name="Staff Ranking" hidden="false" collective="false" import="true" defaultSelectionEntryId="85c7-0758-b395-3e03">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6c5-b383-4394-1e28" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="85c7-0758-b395-3e03" name="Staff Ranking 7" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1841-9613-840b-6c55" name="Staff Ranking 8" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f6de-ba5b-2804-fbe7" name="Staff Ranking 9" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="50.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
   <sharedRules>
     <rule id="21f9-9316-5720-031f" name="Bloodthirsty" publicationId="84ad-1b13-6073-8321" page="112" hidden="false">
       <description>Re-roll first round of combat only.</description>

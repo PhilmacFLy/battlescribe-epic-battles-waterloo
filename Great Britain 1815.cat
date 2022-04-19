@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="f3f3-dd46-cac0-ac96" name="Great Britain 1815" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="7214-8139-da7b-5076" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
-    <categoryEntry id="63d2-7ecd-1d78-339e" name="Main Brigades" publicationId="84ad-1b13-6073-8321" page="181" hidden="false"/>
+    <categoryEntry id="63d2-7ecd-1d78-339e" name="Main Brigade" publicationId="84ad-1b13-6073-8321" page="181" hidden="false"/>
     <categoryEntry id="c0ad-34c2-82bb-7823" name="Army Support Brigade" publicationId="84ad-1b13-6073-8321" page="182" hidden="false">
       <constraints>
         <constraint field="selections" scope="force" value="50.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="false" id="e52d-6d3e-5201-6d70" type="max"/>
@@ -17,83 +17,23 @@
     </forceEntry>
   </forceEntries>
   <selectionEntries>
-    <selectionEntry id="b613-0939-03f9-fe94" name="Divisional Commander" publicationId="84ad-1b13-6073-8321" page="181" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="1bb3-1e90-1055-3ab5" name="British Infantry Brigade" publicationId="84ad-1b13-6073-8321" page="181" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d0d-d8e2-1259-a117" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d99-666a-a011-8910" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d9f-9d29-8efd-e3cb" type="min"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="2225-edf6-c722-dc86" name="Main Brigades" hidden="false" targetId="63d2-7ecd-1d78-339e" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="d069-baa9-424e-9be9" name="Staff Rating" hidden="false" collective="false" import="true" defaultSelectionEntryId="ce4a-320d-228b-9b96">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e10-5ea5-92c5-da6c" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e6d-e467-7ab7-0db5" type="min"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="ce4a-320d-228b-9b96" name="Staff Rating 7" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="6753-5ef6-f8f6-bfd2" name="Staff Rating 8" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="25.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="e75d-68f8-f857-3ef2" name="Staff Rating 9" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="50.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="1bb3-1e90-1055-3ab5" name="British Infantry Brigade" publicationId="84ad-1b13-6073-8321" page="181" hidden="false" collective="false" import="true" type="unit">
-      <categoryLinks>
-        <categoryLink id="17b5-14fc-539e-f2ee" name="Main Brigades" hidden="false" targetId="63d2-7ecd-1d78-339e" primary="true"/>
-        <categoryLink id="c458-564a-6ae3-67eb" name="Infantry" hidden="false" targetId="5379-57f8-5bb0-2192" primary="false"/>
+        <categoryLink id="17b5-14fc-539e-f2ee" name="Main Brigades" hidden="false" targetId="63d2-7ecd-1d78-339e" primary="false"/>
+        <categoryLink id="c458-564a-6ae3-67eb" name="Infantry" hidden="false" targetId="5379-57f8-5bb0-2192" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="36fd-3958-b4a4-655f" name="Brigade Commander" publicationId="84ad-1b13-6073-8321" page="182" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cb1-3f05-7ab0-39f0" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5fc-86b5-a1f2-d4b0" type="min"/>
-          </constraints>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="a099-8b19-6e92-f884" name="Staff Rating" hidden="false" collective="false" import="true" defaultSelectionEntryId="01b1-f3bc-777b-e166">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a62c-ae8f-2d48-177f" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4515-8b81-ac43-4725" type="min"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="01b1-f3bc-777b-e166" name="Staff Rating 7" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="e73c-ad46-766a-f3b7" name="Staff Rating 8" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="25.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <costs>
-            <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
-          </costs>
-        </selectionEntry>
         <selectionEntry id="96d9-405d-f64d-2871" name="Infantry Batallion" publicationId="84ad-1b13-6073-8321" page="182" hidden="false" collective="false" import="true" type="unit">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fa2-c87a-8b97-a85b" type="min"/>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2025-d8d3-061c-5ad8" type="max"/>
           </constraints>
+          <categoryLinks>
+            <categoryLink id="05b9-be01-2c61-9e23" name="Infantry" hidden="false" targetId="5379-57f8-5bb0-2192" primary="false"/>
+          </categoryLinks>
           <selectionEntries>
             <selectionEntry id="d5ca-c979-8fac-3b20" name="Rifles" publicationId="84ad-1b13-6073-8321" page="182" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -207,9 +147,342 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="90f4-10fe-e831-71cc" name="Commander 7-8" hidden="false" collective="false" import="true" targetId="5a96-7db3-917f-3bca" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f98a-a31c-893a-0b6e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f26-071b-62d6-cf28" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="aaa7-ac94-ac47-97ec" name="Kings German Legion Infantry Brigade" publicationId="84ad-1b13-6073-8321" page="181" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="cf2b-3718-9cd8-cf47" name="Infantry" hidden="false" targetId="5379-57f8-5bb0-2192" primary="true"/>
+        <categoryLink id="dc7a-4882-c6a6-ac3d" name="New CategoryLink" hidden="false" targetId="63d2-7ecd-1d78-339e" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1221-100d-a927-be2c" name="Infantry Batallion" publicationId="84ad-1b13-6073-8321" page="181" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88dc-2833-0131-3272" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bde-8667-059b-ff5a" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="d373-bf90-bbc0-ec9d" name="Infantry" hidden="false" targetId="5379-57f8-5bb0-2192" primary="false"/>
+          </categoryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="707a-cb08-8bbf-5fa1" name="Quality" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e286-9893-a94d-ca54" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e741-af9b-97e7-8239" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="e696-f441-7bcc-3ec0" name="Reliable, Elite 4+" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="8c83-b22d-d78e-e29c" name="Elite" hidden="false" targetId="6f9f-067a-95a3-6bd6" type="rule"/>
+                    <infoLink id="88f3-7928-12ce-9e37" name="Reliable" hidden="false" targetId="4e2f-3472-4459-c9f1" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="10.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="9bec-e025-39c7-fb42" name="Regular" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="fdb3-9767-22b4-a512" name="Size" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0252-e7b3-13e0-6c97" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61a6-d4b2-952d-0aef" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="a32c-48a1-386e-e45f" name="Small" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="-8.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="cd31-d598-9c04-0365" name="Normal" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="68b8-7cf5-6f7f-49cd" name="Type" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00bc-5e43-a2c9-d45c" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b478-5f74-2ee1-ef13" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="4137-0485-e3a5-0b75" name="Line Infantry" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="5b08-787d-e251-6552" name="Light Infantry" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0605-0aa9-9713-a30f" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="8.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="39.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="ee90-5184-1282-e68c" name="Brigade Commander" hidden="false" collective="false" import="true" targetId="5a96-7db3-917f-3bca" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="584e-fb70-3c1d-fc96" name="Hanoverian Brigades" publicationId="84ad-1b13-6073-8321" page="181" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36b2-303a-5c8b-b62b" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9a99-34d3-e637-e618" name="Main Brigades" hidden="false" targetId="63d2-7ecd-1d78-339e" primary="false"/>
+        <categoryLink id="8a1d-5795-5751-2dd4" name="Infantry" hidden="false" targetId="5379-57f8-5bb0-2192" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="338c-0058-31c9-fa34" name="Hanoverian Batallions" publicationId="84ad-1b13-6073-8321" page="181" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e50-7a85-e9f7-7dca" type="min"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91f0-b6f0-7112-9be4" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="910d-baf1-f906-251b" name="Infantry" hidden="false" targetId="5379-57f8-5bb0-2192" primary="false"/>
+          </categoryLinks>
+          <selectionEntries>
+            <selectionEntry id="0e7c-93fe-3ff0-b88c" name="Hanoverian Landwehr Battalion" hidden="false" collective="false" import="true" type="unit">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f728-76d2-a65d-50c1" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="75a2-daa1-830f-d516" value="5.0"/>
+                    <modifier type="set" field="d7ce-e16a-efaa-f124" value="2.0"/>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f728-76d2-a65d-50c1" type="greaterThan"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="75a2-daa1-830f-d516" value="0.0"/>
+                    <modifier type="set" field="d7ce-e16a-efaa-f124" value="0.0"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <constraints>
+                <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75a2-daa1-830f-d516" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7ce-e16a-efaa-f124" type="min"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="b7a9-fcc4-014d-6d5d" name="Infantry" hidden="false" targetId="5379-57f8-5bb0-2192" primary="false"/>
+              </categoryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="37d1-37a9-e1b1-aba7" name="Size" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d3d-79de-8f9d-dbfd" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e96-ec04-074f-4f99" type="min"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="be28-4099-354f-63f9" name="Small" hidden="false" collective="false" import="true" type="upgrade">
+                      <costs>
+                        <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="-8.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="3435-46dc-6e5c-1b10" name="Normal" hidden="false" collective="false" import="true" type="upgrade">
+                      <costs>
+                        <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f728-76d2-a65d-50c1" name="Hanoverian Field Line Battalion" hidden="false" collective="false" import="true" type="unit">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e7c-93fe-3ff0-b88c" type="greaterThan"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="ddec-16eb-9144-9595" value="0.0"/>
+                    <modifier type="set" field="9bac-ac37-ae61-0ba7" value="0.0"/>
+                  </modifiers>
+                </modifierGroup>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e7c-93fe-3ff0-b88c" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="ddec-16eb-9144-9595" value="3.0"/>
+                    <modifier type="set" field="9bac-ac37-ae61-0ba7" value="0.0"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddec-16eb-9144-9595" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bac-ac37-ae61-0ba7" type="min"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="e745-df6b-8553-b110" name="Infantry" hidden="false" targetId="5379-57f8-5bb0-2192" primary="false"/>
+              </categoryLinks>
+              <selectionEntries>
+                <selectionEntry id="2a72-1134-3e55-3cdb" name="First Fire" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f95-b0d6-b9e6-b448" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="bef5-3b65-5168-f8cc" name="First Fire" hidden="false" targetId="c3a6-9818-beb9-66e0" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="8e75-9ddd-9ff1-bf98" name="Size" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f64-92af-4ce6-89f5" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="257f-bbf7-e932-3b3f" type="min"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="dad0-cfe7-a0fc-aa17" name="Small" hidden="false" collective="false" import="true" type="upgrade">
+                      <costs>
+                        <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="-8.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="8944-20bb-668b-8a80" name="Normal" hidden="false" collective="false" import="true" type="upgrade">
+                      <costs>
+                        <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f854-e0b2-d958-a9ee" name="Hanoverian Field Light Battalion" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9566-115b-7b1b-32f9" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="1c46-1726-3864-7df7" name="Infantry" hidden="false" targetId="5379-57f8-5bb0-2192" primary="false"/>
+              </categoryLinks>
+              <selectionEntries>
+                <selectionEntry id="53fc-9d5b-1858-df1c" name="First Fire" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9031-4907-8f66-fc5d" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="39e5-04e5-810b-5ddf" name="First Fire" hidden="false" targetId="c3a6-9818-beb9-66e0" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="e1d3-bed9-de4b-94d4" name="Size" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1747-a3d0-f1ae-1649" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f687-ae29-6fcd-7f4d" type="min"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="8974-080f-d242-da06" name="Small" hidden="false" collective="false" import="true" type="upgrade">
+                      <costs>
+                        <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="-8.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="ddd0-27f4-18cf-a6c4" name="Normal" hidden="false" collective="false" import="true" type="upgrade">
+                      <costs>
+                        <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6c37-9079-01dc-c9ca" name="Jäger company" hidden="false" collective="false" import="true" type="unit">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdd8-98aa-d48e-da95" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="5f5a-24eb-ccd1-57dc" name="Infantry" hidden="false" targetId="5379-57f8-5bb0-2192" primary="false"/>
+              </categoryLinks>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="f503-da22-0869-0176" name="Size" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a864-f5aa-18fc-42e1" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af19-ebd2-f6ad-bc95" type="min"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="935a-f29b-ae18-ca80" name="Small" hidden="false" collective="false" import="true" type="upgrade">
+                      <costs>
+                        <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="-8.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="3616-5ee4-b479-a580" name="Normal" hidden="false" collective="false" import="true" type="upgrade">
+                      <costs>
+                        <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="98a9-e9c5-303b-7777" name="Commander 7-8" hidden="false" collective="false" import="true" targetId="5a96-7db3-917f-3bca" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd0a-5235-3448-b7c3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d13-b99e-5a44-7d8f" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
+  <entryLinks>
+    <entryLink id="8252-5516-7b39-873e" name="Commander 7-9" hidden="false" collective="false" import="true" targetId="813c-feaf-8bab-8205" type="selectionEntry">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22d4-1c01-b088-dc58" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63c4-52c5-36dd-1ad1" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="910b-1301-b952-fd8c" name="New CategoryLink" hidden="false" targetId="63d2-7ecd-1d78-339e" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
 </catalogue>
