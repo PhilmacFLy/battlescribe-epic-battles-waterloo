@@ -12,7 +12,7 @@
     <categoryEntry id="df20-be92-846a-b115" name="Artillery" hidden="false"/>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="8f8f-c98d-427c-8fd9" name="None" hidden="false"/>
+    <forceEntry id="bbfc-2bdd-0dbd-1989" name="None" hidden="false"/>
   </forceEntries>
   <sharedRules>
     <rule id="21f9-9316-5720-031f" name="Bloodthirsty" publicationId="84ad-1b13-6073-8321" page="112" hidden="false">
@@ -110,6 +110,12 @@ Never benifits from Generals re-roll.</description>
     <rule id="4dc7-865a-1380-2be2" name="Timid" publicationId="84ad-1b13-6073-8321" page="120" hidden="false">
       <description>-1 on Staff Rating when ordering to charge
 +1 on Staff Rating when ordering to retreat</description>
+    </rule>
+    <rule id="4e2f-3472-4459-c9f1" name="Reliable" publicationId="84ad-1b13-6073-8321" page="117" hidden="false">
+      <description>+1 command.</description>
+    </rule>
+    <rule id="05fd-a05a-b292-c191" name="Sharp Shooter" publicationId="84ad-1b13-6073-8321" page="117" hidden="false">
+      <description>Re-roll one missed shot.</description>
     </rule>
   </sharedRules>
 </gameSystem>
