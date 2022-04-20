@@ -22,8 +22,8 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d9f-9d29-8efd-e3cb" type="min"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="17b5-14fc-539e-f2ee" name="Main Brigades" hidden="false" targetId="63d2-7ecd-1d78-339e" primary="false"/>
-        <categoryLink id="c458-564a-6ae3-67eb" name="Infantry" hidden="false" targetId="5379-57f8-5bb0-2192" primary="true"/>
+        <categoryLink id="17b5-14fc-539e-f2ee" name="Main Brigades" hidden="false" targetId="63d2-7ecd-1d78-339e" primary="true"/>
+        <categoryLink id="c458-564a-6ae3-67eb" name="Infantry" hidden="false" targetId="5379-57f8-5bb0-2192" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="96d9-405d-f64d-2871" name="Infantry Batallion" publicationId="84ad-1b13-6073-8321" page="182" hidden="false" collective="false" import="true" type="unit">
@@ -76,29 +76,6 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup id="3b34-1e2e-f023-e202" name="Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="4f6f-5c86-cf88-0f65">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a0d-dfc2-dcb1-91ca" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cfe-6d75-90ee-d2ac" type="min"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="0f13-cb11-547f-ca82" name="Small" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="-8.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="4f6f-5c86-cf88-0f65" name="Normal" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="58f4-0f8f-a13b-5ed4" name="Large" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="8.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
             <selectionEntryGroup id="bdd4-ef5a-92ca-1af0" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="74bc-56b3-77b4-b20a">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f46-7171-d49f-0764" type="max"/>
@@ -142,6 +119,9 @@
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="6c8e-3d80-1840-747b" name="Size Large-Normal-Small" hidden="false" collective="false" import="true" targetId="b204-9fc7-71a9-f74f" type="selectionEntryGroup"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="39.0"/>
           </costs>
@@ -154,6 +134,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f26-071b-62d6-cf28" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="1c79-3fe7-7f3e-d3b9" name="Royal Artillery" hidden="false" collective="false" import="true" targetId="ec27-cbd6-828e-795e" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
@@ -161,8 +142,8 @@
     </selectionEntry>
     <selectionEntry id="aaa7-ac94-ac47-97ec" name="Kings German Legion Infantry Brigade" publicationId="84ad-1b13-6073-8321" page="181" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink id="cf2b-3718-9cd8-cf47" name="Infantry" hidden="false" targetId="5379-57f8-5bb0-2192" primary="true"/>
-        <categoryLink id="dc7a-4882-c6a6-ac3d" name="New CategoryLink" hidden="false" targetId="63d2-7ecd-1d78-339e" primary="false"/>
+        <categoryLink id="cf2b-3718-9cd8-cf47" name="Infantry" hidden="false" targetId="5379-57f8-5bb0-2192" primary="false"/>
+        <categoryLink id="dc7a-4882-c6a6-ac3d" name="New CategoryLink" hidden="false" targetId="63d2-7ecd-1d78-339e" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="1221-100d-a927-be2c" name="Infantry Batallion" publicationId="84ad-1b13-6073-8321" page="181" hidden="false" collective="false" import="true" type="unit">
@@ -196,24 +177,6 @@
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup id="fdb3-9767-22b4-a512" name="Size" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0252-e7b3-13e0-6c97" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61a6-d4b2-952d-0aef" type="min"/>
-              </constraints>
-              <selectionEntries>
-                <selectionEntry id="a32c-48a1-386e-e45f" name="Small" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="-8.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="cd31-d598-9c04-0365" name="Normal" hidden="false" collective="false" import="true" type="upgrade">
-                  <costs>
-                    <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
             <selectionEntryGroup id="68b8-7cf5-6f7f-49cd" name="Type" hidden="false" collective="false" import="true">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00bc-5e43-a2c9-d45c" type="max"/>
@@ -236,6 +199,9 @@
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="fe5e-8ffc-1060-1f16" name="Size Normal-Small" hidden="false" collective="false" import="true" targetId="a7c6-0760-1fd3-7d44" type="selectionEntryGroup"/>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="39.0"/>
           </costs>
@@ -243,6 +209,7 @@
       </selectionEntries>
       <entryLinks>
         <entryLink id="ee90-5184-1282-e68c" name="Brigade Commander" hidden="false" collective="false" import="true" targetId="5a96-7db3-917f-3bca" type="selectionEntry"/>
+        <entryLink id="f2ea-e5dd-b107-a352" name="Hanoverian Artillery" hidden="false" collective="false" import="true" targetId="c5e9-048b-7d74-a6b5" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
@@ -253,8 +220,8 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36b2-303a-5c8b-b62b" type="min"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="9a99-34d3-e637-e618" name="Main Brigades" hidden="false" targetId="63d2-7ecd-1d78-339e" primary="false"/>
-        <categoryLink id="8a1d-5795-5751-2dd4" name="Infantry" hidden="false" targetId="5379-57f8-5bb0-2192" primary="true"/>
+        <categoryLink id="9a99-34d3-e637-e618" name="Main Brigades" hidden="false" targetId="63d2-7ecd-1d78-339e" primary="true"/>
+        <categoryLink id="8a1d-5795-5751-2dd4" name="Infantry" hidden="false" targetId="5379-57f8-5bb0-2192" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="338c-0058-31c9-fa34" name="Hanoverian Batallions" publicationId="84ad-1b13-6073-8321" page="181" hidden="false" collective="false" import="true">
@@ -294,26 +261,9 @@
               <categoryLinks>
                 <categoryLink id="b7a9-fcc4-014d-6d5d" name="Infantry" hidden="false" targetId="5379-57f8-5bb0-2192" primary="false"/>
               </categoryLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="37d1-37a9-e1b1-aba7" name="Size" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d3d-79de-8f9d-dbfd" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e96-ec04-074f-4f99" type="min"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="be28-4099-354f-63f9" name="Small" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="-8.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="3435-46dc-6e5c-1b10" name="Normal" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="6b64-2f37-2df7-e648" name="Size Normal-Small" hidden="false" collective="false" import="true" targetId="a7c6-0760-1fd3-7d44" type="selectionEntryGroup"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
               </costs>
@@ -359,26 +309,9 @@
                   </costs>
                 </selectionEntry>
               </selectionEntries>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="8e75-9ddd-9ff1-bf98" name="Size" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f64-92af-4ce6-89f5" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="257f-bbf7-e932-3b3f" type="min"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="dad0-cfe7-a0fc-aa17" name="Small" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="-8.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="8944-20bb-668b-8a80" name="Normal" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="0048-1db2-8159-bfb9" name="Size Normal-Small" hidden="false" collective="false" import="true" targetId="a7c6-0760-1fd3-7d44" type="selectionEntryGroup"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
               </costs>
@@ -403,26 +336,9 @@
                   </costs>
                 </selectionEntry>
               </selectionEntries>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="e1d3-bed9-de4b-94d4" name="Size" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1747-a3d0-f1ae-1649" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f687-ae29-6fcd-7f4d" type="min"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="8974-080f-d242-da06" name="Small" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="-8.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="ddd0-27f4-18cf-a6c4" name="Normal" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="4714-581f-703b-5228" name="Size Normal-Small" hidden="false" collective="false" import="true" targetId="a7c6-0760-1fd3-7d44" type="selectionEntryGroup"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
               </costs>
@@ -434,26 +350,9 @@
               <categoryLinks>
                 <categoryLink id="5f5a-24eb-ccd1-57dc" name="Infantry" hidden="false" targetId="5379-57f8-5bb0-2192" primary="false"/>
               </categoryLinks>
-              <selectionEntryGroups>
-                <selectionEntryGroup id="f503-da22-0869-0176" name="Size" hidden="false" collective="false" import="true">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a864-f5aa-18fc-42e1" type="max"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af19-ebd2-f6ad-bc95" type="min"/>
-                  </constraints>
-                  <selectionEntries>
-                    <selectionEntry id="935a-f29b-ae18-ca80" name="Small" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="-8.0"/>
-                      </costs>
-                    </selectionEntry>
-                    <selectionEntry id="3616-5ee4-b479-a580" name="Normal" hidden="false" collective="false" import="true" type="upgrade">
-                      <costs>
-                        <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
-                      </costs>
-                    </selectionEntry>
-                  </selectionEntries>
-                </selectionEntryGroup>
-              </selectionEntryGroups>
+              <entryLinks>
+                <entryLink id="0474-d4b8-47cc-2e8c" name="Size Normal-Small" hidden="false" collective="false" import="true" targetId="a7c6-0760-1fd3-7d44" type="selectionEntryGroup"/>
+              </entryLinks>
               <costs>
                 <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
               </costs>
@@ -468,10 +367,454 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d13-b99e-5a44-7d8f" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="2be8-ab37-9aa0-da96" name="Hanoverian Artillery" hidden="false" collective="false" import="true" targetId="c5e9-048b-7d74-a6b5" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="6a74-a9c5-6519-52c1" name="Guards Brigade" publicationId="84ad-1b13-6073-8321" page="182" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="aaa7-ac94-ac47-97ec" type="atLeast"/>
+                <condition field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1bb3-1e90-1055-3ab5" type="atLeast"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+          <modifiers>
+            <modifier type="set" field="8fde-fa83-9ec5-9bfc" value="1.0"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8fde-fa83-9ec5-9bfc" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="f816-b531-2428-2c6a" name="Infantry" hidden="false" targetId="5379-57f8-5bb0-2192" primary="false"/>
+        <categoryLink id="2c5e-1263-2dba-64eb" name="Army Support Brigade" hidden="false" targetId="c0ad-34c2-82bb-7823" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="485c-5295-6118-6200" name="Foot Guards Batallion" publicationId="84ad-1b13-6073-8321" page="181" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc48-7072-9af0-cff7" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="717b-be91-e904-009e" type="max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="425b-1625-a673-bee3" name="Infantry" hidden="false" targetId="5379-57f8-5bb0-2192" primary="false"/>
+          </categoryLinks>
+          <entryLinks>
+            <entryLink id="3472-188a-5b00-49ad" name="Size Large-Normal-Small" hidden="false" collective="false" import="true" targetId="b204-9fc7-71a9-f74f" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="62.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="b3bb-35a2-2fbf-2c25" name="Commander 7-8" hidden="false" collective="false" import="true" targetId="5a96-7db3-917f-3bca" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="56bd-2420-afe6-a995" name="Hanoverian Cavalry Brigade" publicationId="84ad-1b13-6073-8321" page="182" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="584e-fb70-3c1d-fc96" type="atLeast"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="2193-43ff-8ed6-2b85" value="1.0"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2193-43ff-8ed6-2b85" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="1e74-af01-963a-9019" name="New CategoryLink" hidden="false" targetId="c0ad-34c2-82bb-7823" primary="true"/>
+        <categoryLink id="63c8-50ba-6ff5-a520" name="Cavalry" hidden="false" targetId="849b-48d1-30a3-887f" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="fd9d-a162-3dad-63e9" name="Hanoverian Light Cavalry Regiments" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8b5-94ab-6ecc-bb1c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8874-9664-7908-93c1" type="min"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="0c57-e1b7-0cee-a270" name="Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="9f26-b271-736d-c799">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea72-85d5-f547-b00c" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c967-6e2e-8863-47d6" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="58ed-5765-48e2-358c" name="Small" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="-8.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="9f26-b271-736d-c799" name="Normal" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="f27f-44ad-baed-5180" name="Large" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="56bd-2420-afe6-a995" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8473-504a-cc23-9836" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="8.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="41.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c676-3122-db56-52a1" name="Duke of Cumberland Hussars" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0d2-966e-ae5a-0f09" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="908c-16b3-71a0-d06c" name="Size" hidden="false" collective="false" import="true" defaultSelectionEntryId="f220-bcf5-c1bf-dba5">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16df-888a-8ba4-ef1f" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df7e-d4ef-5e3e-f4f1" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="044b-66f5-fc28-b07e" name="Small" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="-8.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="f220-bcf5-c1bf-dba5" name="Normal" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="c54d-7fb7-4732-af2a" name="Large" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="56bd-2420-afe6-a995" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0479-a744-d432-8b9d" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="8.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="27.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="6cdf-9b32-3c5a-dc69" name="Commander 7" hidden="false" collective="false" import="true" targetId="e656-c6bc-328e-49f1" type="selectionEntry"/>
+        <entryLink id="8409-6dc0-198a-013a" name="Hanoverian Horse Artillery Battery" hidden="false" collective="false" import="true" targetId="ce8a-1a61-02df-dc96" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ee64-b6c2-b946-3864" name="Light Cavalry Brigade" publicationId="84ad-1b13-6073-8321" page="182" hidden="false" collective="false" import="true" type="model">
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d03-40d1-71a8-47e0" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="344a-743d-85a6-7202" name="Army Support Brigade" hidden="false" targetId="c0ad-34c2-82bb-7823" primary="true"/>
+        <categoryLink id="0086-9708-967f-96a4" name="Cavalry" hidden="false" targetId="849b-48d1-30a3-887f" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0215-f9a5-debd-8bc7" name="Light Dragoon Regiment" hidden="false" collective="false" import="true" type="unit">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9c67-bb30-a9ef-d5bf" type="equalTo"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="7abd-109f-a662-588d" value="3.0"/>
+                <modifier type="set" field="caf3-c9b1-2e2b-02ac" value="2.0"/>
+              </modifiers>
+            </modifierGroup>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9c67-bb30-a9ef-d5bf" type="greaterThan"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="caf3-c9b1-2e2b-02ac" value="0.0"/>
+                <modifier type="set" field="7abd-109f-a662-588d" value="0.0"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7abd-109f-a662-588d" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="caf3-c9b1-2e2b-02ac" type="min"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="49c0-01a6-781b-ee24" name="Size" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de26-003b-8d12-5aa1" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf02-4dde-4271-8cc3" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="ade8-8588-cd57-b0b2" name="Small" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="-8.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="9115-1623-dfbd-905b" name="Normal" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="7b87-890a-2468-73c5" name="Large" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="ee64-b6c2-b946-3864" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1dcd-28b7-f352-5943" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="8.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="7c05-74b7-bd06-fddd" name="Quality" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="3b58-54d8-24bd-1595" name="Normal" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="623b-2ce3-6d61-19e5" name="Veteran (KGL), Reliable, +1 Hand-tohand" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="ee64-b6c2-b946-3864" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2d92-e1ab-192d-7acb" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="1d38-b22f-f25c-07c3" name="Reliable" hidden="false" targetId="4e2f-3472-4459-c9f1" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="6.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="46.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9c67-bb30-a9ef-d5bf" name="Hussar Regiment" hidden="false" collective="false" import="true" type="unit">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0215-f9a5-debd-8bc7" type="greaterThan"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="11d9-e6d9-6434-75f7" value="0.0"/>
+                <modifier type="set" field="78fe-f10e-f4bd-7186" value="0.0"/>
+              </modifiers>
+            </modifierGroup>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0215-f9a5-debd-8bc7" type="equalTo"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="11d9-e6d9-6434-75f7" value="3.0"/>
+                <modifier type="set" field="78fe-f10e-f4bd-7186" value="2.0"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11d9-e6d9-6434-75f7" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78fe-f10e-f4bd-7186" type="min"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="1482-1080-1971-7689" name="Size" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bc3-8495-e8a2-fd1f" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6b9-7485-4570-2a7d" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="3892-c2a6-946b-207b" name="Small" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="-8.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="9679-241e-b65c-2435" name="Normal" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="f945-7825-5ddb-19d3" name="Large" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="ee64-b6c2-b946-3864" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c740-65c0-0ff0-31b7" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="8.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="8367-fdd6-e8da-30df" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="2d88-687f-8be9-e1e0">
+              <selectionEntries>
+                <selectionEntry id="2d88-687f-8be9-e1e0" name="Normal" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="4ebd-27c6-75da-8743" name="Veteran (KGL), Reliable, +1 Hand-tohand" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="ee64-b6c2-b946-3864" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d40a-0093-d80d-56a1" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="909d-61c6-8ee4-fa0b" name="Reliable" hidden="false" targetId="4e2f-3472-4459-c9f1" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="6.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="46.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="b139-a85e-21b4-2dec" name="Commander 7-8" hidden="false" collective="false" import="true" targetId="5a96-7db3-917f-3bca" type="selectionEntry"/>
+        <entryLink id="d044-29ad-7459-0249" name="Royal Horse Artillery Battery" hidden="false" collective="false" import="true" targetId="3057-0f0a-7a08-bbff" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="662c-d890-1698-55a3" name="Heavy Cavalry Brigade" publicationId="84ad-1b13-6073-8321" page="182" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="396f-c57c-d71e-8542" name="New CategoryLink" hidden="false" targetId="c0ad-34c2-82bb-7823" primary="true"/>
+        <categoryLink id="1c10-e005-11d4-8b73" name="Cavalry" hidden="false" targetId="849b-48d1-30a3-887f" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1edb-187f-fd00-aedc" name="Dragoon Regiment" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="639c-9139-e0f0-afa9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d34-0c91-a451-3a49" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="367d-c5c8-b3a8-4007" name="Size Normal-Small" hidden="false" collective="false" import="true" targetId="a7c6-0760-1fd3-7d44" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="47.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="4b2d-5132-e2f9-03dc" name="Commander 7-8" hidden="false" collective="false" import="true" targetId="5a96-7db3-917f-3bca" type="selectionEntry"/>
+        <entryLink id="d75d-1603-2642-0a1b" name="Royal Horse Artillery Battery" hidden="false" collective="false" import="true" targetId="3057-0f0a-7a08-bbff" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3de2-225c-fa0a-5042" name="Artillery Brigade" publicationId="84ad-1b13-6073-8321" page="183" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8224-1389-4221-23c4" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="874e-1746-366b-21f8" name="Artillery" hidden="false" targetId="df20-be92-846a-b115" primary="false"/>
+        <categoryLink id="fab6-2b95-c953-7b02" name="New CategoryLink" hidden="false" targetId="c0ad-34c2-82bb-7823" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="9ae6-7e37-7ff9-bbcc" name="Royal Horse Artillery batteries" hidden="false" collective="false" import="true" type="unit">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddda-234e-1a55-de7b" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0485-2c5e-20a7-1b90" type="min"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="8d63-1963-425e-5083" name="Artillery" hidden="false" targetId="df20-be92-846a-b115" primary="false"/>
+          </categoryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="4b74-f57b-663e-3e19" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="11be-f76f-71aa-71a0">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f17-7205-7748-bcef" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="322b-79ae-44fa-6b95" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="6baa-ab92-d261-d32b" name="Veteran, Elite 4+" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="302c-6d7b-8c8f-9776" name="Elite" hidden="false" targetId="6f9f-067a-95a3-6bd6" type="rule"/>
+                    <infoLink id="cbf7-7c78-cdcf-be52" name="Reliable" hidden="false" targetId="4e2f-3472-4459-c9f1" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="6.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="11be-f76f-71aa-71a0" name="Regular" hidden="false" collective="false" import="true" type="upgrade">
+                  <costs>
+                    <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="2047-34c3-4b8c-d64c" name="Veteran, Elite 5+" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="d8ce-a26d-aefe-80cd" name="Elite" hidden="false" targetId="6f9f-067a-95a3-6bd6" type="rule"/>
+                    <infoLink id="0dae-b7b4-6645-f693" name="Reliable" hidden="false" targetId="4e2f-3472-4459-c9f1" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="4.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="064a-f99c-8560-3ea4" name="Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="f75b-db5d-83f0-5849">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="942b-e56b-2406-7191" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f1a-a580-b99d-2d9e" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="f75b-db5d-83f0-5849" name="6-Pounder" hidden="false" collective="false" import="true" type="upgrade"/>
+                <selectionEntry id="f71e-fac9-2af8-3f7c" name="9-Pounder" hidden="false" collective="false" import="true" type="upgrade"/>
+                <selectionEntry id="9069-c223-db69-11eb" name="Rockets" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="9ae6-7e37-7ff9-bbcc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6669-ec76-0028-19aa" type="max"/>
+                  </constraints>
+                </selectionEntry>
+                <selectionEntry id="c7ed-bd36-e33d-af44" name="Howitzer" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="9ae6-7e37-7ff9-bbcc" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60f2-1b5b-5760-7a2b" type="max"/>
+                  </constraints>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="34.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="ebaf-8a43-a71f-d261" name="Commander 7" hidden="false" collective="false" import="true" targetId="e656-c6bc-328e-49f1" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="e82d-5f74-ce0f-3b9c" name="Houshold Brigade" publicationId="84ad-1b13-6073-8321" page="183" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="10bb-da9a-6662-62e2" name="New CategoryLink" hidden="false" targetId="c0ad-34c2-82bb-7823" primary="true"/>
+        <categoryLink id="1e2c-9dd4-1975-7714" name="Cavalry" hidden="false" targetId="849b-48d1-30a3-887f" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="777e-bcce-92d3-bd0d" name="Household Cavalry Regiment" publicationId="84ad-1b13-6073-8321" page="183" hidden="false" collective="false" import="true" type="unit">
+          <costs>
+            <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="61.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="86c4-4116-d584-e2c2" name="Commander 7-8" hidden="false" collective="false" import="true" targetId="5a96-7db3-917f-3bca" type="selectionEntry"/>
+        <entryLink id="115c-287c-26ea-08d0" name="Size Normal-Small" hidden="false" collective="false" import="true" targetId="a7c6-0760-1fd3-7d44" type="selectionEntryGroup"/>
+      </entryLinks>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
@@ -485,4 +828,156 @@
       </categoryLinks>
     </entryLink>
   </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="4d5c-14e5-3dc9-e977" name="King&apos;s German Legion Artillery" publicationId="84ad-1b13-6073-8321" page="183" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2137-21f0-655d-2515" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7177-0e2c-e614-d6f6" name="Artillery" hidden="false" targetId="df20-be92-846a-b115" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a599-560f-5365-0a44" name="Quality" hidden="false" collective="false" import="true" defaultSelectionEntryId="b074-aafc-19ff-7f2d">
+          <selectionEntries>
+            <selectionEntry id="b074-aafc-19ff-7f2d" name="Normal" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c161-5891-e34b-395d" name="Veteran, Elite 5+" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="59c9-bd44-b090-8fec" name="Elite 4+" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="6.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="31.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ec27-cbd6-828e-795e" name="Royal Artillery" publicationId="84ad-1b13-6073-8321" page="183" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebf8-02dd-3d41-2b5e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c804-5121-ff2a-b07b" name="Artillery" hidden="false" targetId="df20-be92-846a-b115" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b0b7-9ed2-792b-7e55" name="Quality" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="9aa7-ba4e-a246-f84b" name="Normal" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2132-7cb7-d0b7-93f1" name="Veteran, Elite 5+" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cb96-9a0b-b663-fcb4" name="Elite 4+" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="6.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="31.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c5e9-048b-7d74-a6b5" name="Hanoverian Artillery" publicationId="84ad-1b13-6073-8321" page="183" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b76c-2e3e-f776-ed4a" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4899-22d5-5d9c-27c9" name="Artillery" hidden="false" targetId="df20-be92-846a-b115" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="27.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ce8a-1a61-02df-dc96" name="Hanoverian Horse Artillery Battery" publicationId="84ad-1b13-6073-8321" page="183" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5126-6b16-e059-e09a" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="eefa-0c53-a71f-68f0" name="Artillery" hidden="false" targetId="df20-be92-846a-b115" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="34.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3057-0f0a-7a08-bbff" name="Royal Horse Artillery Battery" publicationId="84ad-1b13-6073-8321" page="183" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6922-c725-c4b3-4c63" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5c02-dfa4-acc2-0f77" name="Artillery" hidden="false" targetId="df20-be92-846a-b115" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2a5c-b87b-a4e1-7683" name="Quality" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="3e02-c153-a9c0-c1bf" name="Normal" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8ab0-4ad9-c9b0-b1d4" name="Veteran, Elite 5+" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c095-7e57-8254-8df4" name="Elite 4+" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="6.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="34.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9667-1b85-0e55-6812" name="King&apos;s German Legion Horse Artillery Battery" publicationId="84ad-1b13-6073-8321" page="183" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed5b-5af9-78c5-b409" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8212-a846-1ad9-bb89" name="Artillery" hidden="false" targetId="df20-be92-846a-b115" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1c5a-7207-c593-7214" name="Quality" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="09b7-7413-738b-47e1" name="Normal" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="055d-08ef-da1a-1adb" name="Veteran, Elite 5+" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="4.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="38d7-e809-6475-7033" name="Elite 4+" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="6.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="31.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
 </catalogue>

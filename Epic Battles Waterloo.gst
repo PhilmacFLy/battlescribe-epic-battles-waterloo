@@ -92,7 +92,69 @@
         <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="e656-c6bc-328e-49f1" name="Commander 7" hidden="false" collective="false" import="true" type="model">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8d6b-4a26-b4de-7d1a" name="Staff Ranking" hidden="false" collective="false" import="true" defaultSelectionEntryId="c5af-855b-9336-a48b">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36ab-fd06-ea29-b4ed" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c5af-855b-9336-a48b" name="Staff Ranking 7" hidden="false" collective="false" import="true" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="a7c6-0760-1fd3-7d44" name="Size Normal-Small" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e0b-220e-2a0c-0303" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80b5-2889-1962-bb32" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="75d1-2e9b-5758-5242" name="Small" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="-8.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="dabe-b088-9c2f-554f" name="Normal" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="b204-9fc7-71a9-f74f" name="Size Large-Normal-Small" hidden="false" collective="false" import="true" defaultSelectionEntryId="4d1a-e821-9a10-e0b8">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78c3-38fb-0831-da86" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bdf-796a-45fd-3a9d" type="min"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="326b-74d9-487c-ee69" name="Small" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="-8.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4d1a-e821-9a10-e0b8" name="Normal" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c1f5-a025-2632-7d53" name="Large" hidden="false" collective="false" import="true" type="upgrade">
+          <costs>
+            <cost name="pts" typeId="989b-9e08-0bb4-7fc2" value="8.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="21f9-9316-5720-031f" name="Bloodthirsty" publicationId="84ad-1b13-6073-8321" page="112" hidden="false">
       <description>Re-roll first round of combat only.</description>
